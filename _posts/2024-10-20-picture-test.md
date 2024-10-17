@@ -2,7 +2,7 @@
 ifecycle management: Continuously refined based on user feedback and changing industry needs.
 - Analytical depth: Ranging from descriptive to prescriptive analytics, offering increasingly sophisticated insights.
 
-![alt text](D:\data\projects\kohlerdigital.github.io\images\spending_monthly_cohort.png)
+![alt text](images\spending_monthly_cohort.png)
 
 Smart tourism data products include:
 - Interactive Dashboards: These interfaces consolidate data on tourist flows, attraction popularity, and sustainability metrics. They empower destination managers to make informed decisions about resource allocation and crowd management.
