@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The potential of smart tourism"
-image: images\spending_monthly_cohort.png
+image: images/spending_monthly_cohort.png
 ---
 
 Snjallferðaþjónusta nýtir nýjustu tækni eins og gervigreind og stórgögn til að skapa persónumiðaða og sjálfbæra ferðaupplifun. Þessi nálgun getur bætt upplifun ferðamanna, styrkt staðbundið viðskiptalíf og stuðlað að sjálfbærni í ferðaþjónustu, en krefst umtalsverðrar fjárfestingar í innviðum og þekkingu.
