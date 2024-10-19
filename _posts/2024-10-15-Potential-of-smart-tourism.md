@@ -1,14 +1,12 @@
 ---
 layout: post
 title: "The potential of smart tourism"
-image: images/spending_monthly_cohort.png
+image: images/smart_tourism.jpg
 ---
 
 Snjallferðaþjónusta nýtir nýjustu tækni eins og gervigreind og stórgögn til að skapa persónumiðaða og sjálfbæra ferðaupplifun. Þessi nálgun getur bætt upplifun ferðamanna, styrkt staðbundið viðskiptalíf og stuðlað að sjálfbærni í ferðaþjónustu, en krefst umtalsverðrar fjárfestingar í innviðum og þekkingu.
 ---
 Imagine this: A tourist arrives in Reykjavik, excited to explore Iceland. As they step off the plane, their smartphone lights up with a personalised welcome message and a curated list of attractions based on their interests. Throughout their stay, real-time data on weather conditions, Northern Lights visibility, and crowd levels at popular sites help them make the most of their visit. This isn't science fiction - it's the promise of smart tourism, and it's closer than you might think.
-
-![alt text](https://kohlerdigital.github.io/images/rkc.png)
 
 I've been researching the concept of smart tourism and its potential applications in our unique context. Smart tourism leverages cutting-edge technologies like IoT, AI, and big data analytics to create seamless, personalised, and sustainable travel experiences. It also aims to help local businesses and communities, smart tourism offers invaluable insights into visitor behaviour and preferences, enabling them to tailor their offerings and optimise operations. This data-driven approach not only enhances the visitor experience but also supports the long-term sustainability and competitiveness of Iceland's tourism ecosystem.
 
