@@ -1,0 +1,19 @@
+{
+	"Jekyll Blog Post Template": {
+	  "scope": "markdown",
+	  "prefix": "jekyllpost",
+	  "body": [
+		"---",
+		"layout: post",
+		"title: \"$1\"",
+		"date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+		"image: images/$2.jpg",
+		"---",
+		"",
+		"<!-- Filename should be: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE-${1/\\s/-/g}.md -->",
+		"",
+		"$0"
+	  ],
+	  "description": "Template for Jekyll blog posts with date and filename instructions"
+	}
+  }
