@@ -1,0 +1,56 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Kohler Digital'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+
+  [params.homeInfoParams]
+    Title = "Hey, I'm Samuel 👋"
+    Content = "<div style='display:flex;flex-direction:column;gap:1rem'><span>I am a data analyst and adventure guide in the Icelandic highlands. I specialise in Smart Tourism, transforming travel data into unforgettable experiences.</span><span>I write and work with tourism data.</span><span>I'm coding in Python, yet I'm not afraid of Excel and R. From Salesforce to CSV, from AWS to sharepoint, I know how to handle this. From SEO to digital campaigns, from mountain guide to Salesforce, I have worked in almost everyfield of the tourism industry.</span></div>"
+  
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/joelolawanle"
+  
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/kohlerdigital"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/samuel-kohler-a78170b/"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "contents"
+    name = "Contents"
+    url = "https://joelolawanle.com/contents"
+    weight = 30
+
+[mediaTypes]
+  [mediaTypes."application/pdf"]
+    suffixes = ["pdf"]
+
+[outputFormats.PDF]
+  mediaType = "application/pdf"
+  isPlainText = true
+  isHTML = false

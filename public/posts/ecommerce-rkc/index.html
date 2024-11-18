@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>A RFM Analysis | Kohler Digital</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+
+
+The project was made for an essay of the University of Cumbria in the context of Msc in Data Analytics. It reviews the concepts of data science and analytics, then analyses an online luxury fashion C2C company&rsquo;s dataset using Python, identifying weak correlations between social features/passRate and user sales.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/ecommerce-rkc/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d72444526d7ecbdb0015438a7fa89054a658bf759d0542e2e5df81ce94b493ee.css" integrity="sha256-1yREUm1&#43;y9sAFUOKf6iQVKZYv3WdBULi5d&#43;BzpS0k&#43;4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/ecommerce-rkc/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="http://localhost:1313/posts/ecommerce-rkc/">
+  <meta property="og:site_name" content="Kohler Digital">
+  <meta property="og:title" content="A RFM Analysis">
+  <meta property="og:description" content=" The project was made for an essay of the University of Cumbria in the context of Msc in Data Analytics. It reviews the concepts of data science and analytics, then analyses an online luxury fashion C2C company’s dataset using Python, identifying weak correlations between social features/passRate and user sales.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-15T22:19:07+00:00">
+    <meta property="article:modified_time" content="2024-11-15T22:19:07+00:00">
+    <meta property="og:image" content="http://localhost:1313/compact-data-header.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://localhost:1313/compact-data-header.svg">
+<meta name="twitter:title" content="A RFM Analysis">
+<meta name="twitter:description" content="
+
+
+The project was made for an essay of the University of Cumbria in the context of Msc in Data Analytics. It reviews the concepts of data science and analytics, then analyses an online luxury fashion C2C company&rsquo;s dataset using Python, identifying weak correlations between social features/passRate and user sales.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "A RFM Analysis",
+      "item": "http://localhost:1313/posts/ecommerce-rkc/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "A RFM Analysis",
+  "name": "A RFM Analysis",
+  "description": " The project was made for an essay of the University of Cumbria in the context of Msc in Data Analytics. It reviews the concepts of data science and analytics, then analyses an online luxury fashion C2C company\u0026rsquo;s dataset using Python, identifying weak correlations between social features/passRate and user sales.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": " The project was made for an essay of the University of Cumbria in the context of Msc in Data Analytics. It reviews the concepts of data science and analytics, then analyses an online luxury fashion C2C company’s dataset using Python, identifying weak correlations between social features/passRate and user sales.\nAbout The Project The paper gives a literature review of the terms data science and data analytics. A dataset of an online luxury fashion C2C company is presented and analysed in Python. Users of the dataset are segmented in various clusters and basic statistical exploration are done. Findings show that the social features and the passRate are weakly corelated to higher user’s sales. The findings are presented to the marketing team with suggestions to further actions. These include a focus on the education of key clusters and to increase the number of active users.\nA BIT OF CONTEXT For this analysis, a dataset provided by Jeffrey Mvutu Mabilama will be used. The data collected here represents selected metrics from a customer to customer (C2C) luxury fashion company, vestiairecollective.com.\nAs part of the sales process, the company has set up an authentication and quality control process where items are checked before they are sent to the customer. The item is directed to the company’s team of expert who asses the authenticity and the quality of the item before sending it to the buyer. The website provides social network features where users can follow a user, like an item or wish a product.\nDEFINING A C2C PROBLEM Research shows that customer engagement generates trust towards the brand and improvesthe intention to buy (Badenes-Rocha, Ruiz-Mafé and Bigné, 2019; Dolan et al., 2019). As the website is a C2C platform, its business model is based on the fees generated by each sold product. As shown in table 1, the current authentication fees are 5.49USD for items valued up to 275 USD, 2% for a value between 275-570 USD and 10.99 USD for values above 570 USD.\nTo generate money, the company needs to increase the number of transactions between users. However, the sale of one item above 570 USD generates twice the amount that the cheapest unit will. In this context, it is necessary to understand whether users involved with the website’s social features sell more items or if the item quality is a more critical factor. Therefore, it would be great to understand if and how users using the social features are selling more and how these features could be used to segment the users and organise marketing campaigns on the various segments. Questions that arise are:\nHow do the current social features perform in this transaction model? How could the number of transactions be raised by increasing the number of successful sellers or pushing forward super sellers? Summary: Analysis of an E-commerce Dataset Representation of Segments:\nActive users: 21,639 (22% of dataset). Social users: 18% of global users. Majority of users are non-active/non-social. Only 5% of users have bought at least one item. Buyers primarily belong to active/social user groups. Early Explanations:\nIncentives to create accounts may inflate inactive user count. Buying pattern doesn’t strictly follow Zipf law. Limited correlation between social features and buying/selling. Deeper Analysis:\nK-means clustering reveals distinct seller segments. Cluster 3 represents top-performing sellers. Findings and Next Steps:\nHigher followers correlate weakly with more sales. Only active users make purchases. PassRate percentage influences sales. Potential for growth across seller clusters. FINDINGS AND NEXT STEPS The hypothesises stated above is partially correct. The best performing cluster, cluster 3, with 49 users of 2036 successful sellers, represents 2.5% of the users, while this amounts to 31% of all sales. Simultaneously, the worst-performing cluster, cluster 1, represents 1109 users out of 2036, which amount to 56% of the successful sellers. The same cluster also amounts to 10% of the sales volume. When added up, clusters 0 and 1 amounts to 1360 users, cluster 2, 627 and cluster 3, 49. Respectively 66%, 30% and 4%. This is almost a match to Zipfs law.\nAn email campaign could be set up for cluster 2 to teach them about proper brand building to increase the number of sales.\nAn education campaign teaching what is a luxury piece of clothing, answering to the company’s quality standards, could lead to more sales.\n(back to top)\nRoadmap Analyse User retention Integrate with tableau/BI See the open issues for a full list of proposed features (and known issues).\n(back to top)\n",
+  "wordCount" : "742",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/compact-data-header.svg","datePublished": "2024-11-15T22:19:07Z",
+  "dateModified": "2024-11-15T22:19:07Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/posts/ecommerce-rkc/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kohler Digital",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Kohler Digital (Alt + H)">Kohler Digital</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://joelolawanle.com/contents" title="Contents">
+                    <span>Contents</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      A RFM Analysis
+    </h1>
+    <div class="post-meta"><span title='2024-11-15 22:19:07 +0000 UTC'>November 15, 2024</span>
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="eager" src="http://localhost:1313/compact-data-header.svg" alt="Digital Northern Lights">
+        <p>Digital Northern Lights</p>
+</figure>
+  <div class="post-content"><!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+<!-- ABOUT THE PROJECT -->
+<p>The project was made for an essay of the University of Cumbria in the context of Msc in Data Analytics. It reviews the concepts of data science and analytics, then analyses an online luxury fashion C2C company&rsquo;s dataset using Python, identifying weak correlations between social features/passRate and user sales.</p>
+<h2 id="about-the-project">About The Project<a hidden class="anchor" aria-hidden="true" href="#about-the-project">#</a></h2>
+<p>The paper gives a literature review of the terms data science and data analytics. A dataset of an online luxury fashion C2C company is presented and analysed in Python. Users of the dataset are segmented in various clusters and basic statistical exploration are done. Findings show that the social features and the passRate are weakly corelated to higher user&rsquo;s sales. The findings are presented to the marketing team with suggestions to further actions. These include a focus on the education of key clusters and to increase the number of active users.</p>
+<h3 id="a-bit-of-context">A BIT OF CONTEXT<a hidden class="anchor" aria-hidden="true" href="#a-bit-of-context">#</a></h3>
+<p>For this analysis, a dataset provided by <a href="https://www.kaggle.com/datasets/jmmvutu/ecommerce-users-of-a-french-c2c-fashion-store">Jeffrey Mvutu Mabilama</a> will be used. The data collected here represents
+selected metrics from a customer to customer (C2C) luxury fashion company, vestiairecollective.com.</p>
+<p>As part of the sales process, the company has set up an authentication and quality control process where items are
+checked before they are sent to the customer. The item is directed to the company&rsquo;s team of expert who asses the
+authenticity and the quality of the item before sending it to the buyer. The website provides social network
+features where users can follow a user, like an item or wish a product.</p>
+<h2 id="defining-a-c2c-problem">DEFINING A C2C PROBLEM<a hidden class="anchor" aria-hidden="true" href="#defining-a-c2c-problem">#</a></h2>
+<p>Research shows that customer engagement generates trust towards the brand and improvesthe intention to buy (Badenes-Rocha, Ruiz-Mafé and Bigné, 2019; Dolan et al., 2019). As the website is a C2C platform, its business model is based on the fees generated by each sold product. As shown in table 1, the current authentication fees are 5.49USD for items valued up to 275 USD, 2% for a value between 275-570 USD and 10.99 USD for values above 570 USD.</p>
+<p>To generate money, the company needs to increase the number of transactions between users. However, the sale of one item above 570 USD generates twice the amount that the cheapest unit will. In this context, it is necessary to understand whether users involved with the website&rsquo;s social features sell more items or if the item quality is a more critical factor. Therefore, it would be great to understand if and how users using the social features are selling more and how these features could be used to segment the users and organise marketing campaigns on the various segments. Questions that arise are:</p>
+<ul>
+<li>How do the current social features perform in this transaction model?</li>
+<li>How could the number of transactions be raised by increasing the number of successful sellers or pushing forward super sellers?</li>
+</ul>
+<h1 id="summary-analysis-of-an-e-commerce-dataset">Summary: Analysis of an E-commerce Dataset<a hidden class="anchor" aria-hidden="true" href="#summary-analysis-of-an-e-commerce-dataset">#</a></h1>
+<ul>
+<li>
+<p><strong>Representation of Segments:</strong></p>
+<ul>
+<li>Active users: 21,639 (22% of dataset).</li>
+<li>Social users: 18% of global users.
+<img alt="text" loading="lazy" src="/fig3.1.png"></li>
+<li>Majority of users are non-active/non-social.</li>
+<li>Only 5% of users have bought at least one item.</li>
+<li>Buyers primarily belong to active/social user groups.
+<img alt="text" loading="lazy" src="/fig4.png"></li>
+</ul>
+</li>
+<li>
+<p><strong>Early Explanations:</strong></p>
+<ul>
+<li>Incentives to create accounts may inflate inactive user count.</li>
+<li>Buying pattern doesn&rsquo;t strictly follow Zipf law.</li>
+<li>Limited correlation between social features and buying/selling.</li>
+</ul>
+</li>
+<li>
+<p><strong>Deeper Analysis:</strong></p>
+<ul>
+<li>K-means clustering reveals distinct seller segments.</li>
+<li>Cluster 3 represents top-performing sellers.
+<img alt="text" loading="lazy" src="/fig1.1.png"></li>
+</ul>
+</li>
+<li>
+<p><strong>Findings and Next Steps:</strong></p>
+<ul>
+<li>Higher followers correlate weakly with more sales.</li>
+<li>Only active users make purchases.</li>
+<li>PassRate percentage influences sales.</li>
+<li>Potential for growth across seller clusters.</li>
+</ul>
+</li>
+</ul>
+<h1 id="findings-and-next-steps">FINDINGS AND NEXT STEPS<a hidden class="anchor" aria-hidden="true" href="#findings-and-next-steps">#</a></h1>
+<p>The hypothesises stated above is partially correct. The best performing cluster, cluster 3, with 49 users of 2036 successful sellers, represents 2.5% of the users, while this amounts to 31% of all sales. Simultaneously, the worst-performing cluster, cluster 1, represents 1109 users out of 2036, which amount to 56% of the successful sellers. The same cluster also amounts to 10% of the sales volume.
+When added up, clusters 0 and 1 amounts to 1360 users, cluster 2, 627 and cluster 3, 49. Respectively 66%, 30% and 4%. This is almost a match to Zipfs law.</p>
+<ul>
+<li>
+<p>An email campaign could be set up for cluster 2 to teach them about proper brand building to increase the number of sales.</p>
+</li>
+<li>
+<p>An education campaign teaching what is a luxury piece of clothing, answering to the company&rsquo;s quality standards, could lead to more sales.</p>
+</li>
+</ul>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ROADMAP -->
+<h2 id="roadmap">Roadmap<a hidden class="anchor" aria-hidden="true" href="#roadmap">#</a></h2>
+<ul>
+<li><input disabled="" type="checkbox"> Analyse User retention</li>
+<li><input disabled="" type="checkbox"> Integrate with tableau/BI</li>
+</ul>
+<p>See the <a href="https://github.com/othneildrew/Best-README-Template/issues">open issues</a> for a full list of proposed features (and known issues).</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="http://localhost:1313/">Kohler Digital</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
