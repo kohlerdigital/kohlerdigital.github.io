@@ -6,7 +6,7 @@
     <description>Recent content on Kohler Digital</description>
     <generator>Hugo -- 0.137.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Nov 2024 13:50:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 13:19:15 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A RFM Analysis</title>
@@ -23,6 +23,16 @@
 --&gt;
 &lt;!-- ABOUT THE PROJECT --&gt;
 &lt;p&gt;The project was made for an essay of the University of Cumbria in the context of Msc in Data Analytics. It reviews the concepts of data science and analytics, then analyses an online luxury fashion C2C company&amp;rsquo;s dataset using Python, identifying weak correlations between social features/passRate and user sales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gagnavist - A Datatþon</title>
+      <link>http://localhost:1313/posts/datathon/</link>
+      <pubDate>Mon, 25 Nov 2024 13:19:15 +0000</pubDate>
+      <guid>http://localhost:1313/posts/datathon/</guid>
+      <description>&lt;h1 id=&#34;gagnvist-datathon-2024---post-event-report&#34;&gt;GAGNVIST Datathon 2024 - Post-Event Report&lt;/h1&gt;
+&lt;h2 id=&#34;the-event-designing-icelands-future-transit&#34;&gt;The Event: Designing Iceland&amp;rsquo;s Future Transit&lt;/h2&gt;
+&lt;p&gt;Organised by Hagstofa, The GAGNVIST Datathon 2024 brought together teams to tackle a fascinating challenge: optimising Borgarlínan&amp;rsquo;s route system in Iceland. Our team, Nerd Herd, approached this with a unique perspective - focusing on the human element of transit rather than just the technical infrastructure.&lt;/p&gt;
+&lt;p&gt;The goal was to analysd and potentially redesign the proposed routes for Borgarlínan, using data from multiple sources including geographic data, population distribution from Hagstofan, employment centers, and existing Stræto bus routes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Potential Of Smart Tourism</title>
