@@ -5,13 +5,16 @@
     <loc>http://localhost:1313/posts/ecommerce-rkc/</loc>
     <lastmod>2024-11-15T22:19:07+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/datathon/</loc>
-    <lastmod>2024-11-25T13:19:15+00:00</lastmod>
+    <loc>http://localhost:1313/posts/announced/</loc>
+    <lastmod>2024-12-03T12:19:15+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-25T13:19:15+00:00</lastmod>
+    <lastmod>2024-12-03T12:19:15+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-12-03T12:19:15+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/datathon/</loc>
     <lastmod>2024-11-25T13:19:15+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/potential-smart-tourism/</loc>
