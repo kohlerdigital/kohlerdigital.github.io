@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Kohler Digital</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:64416/posts/</link>
     <description>Recent content in Posts on Kohler Digital</description>
     <generator>Hugo -- 0.137.1</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Dec 2024 11:45:15 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64416/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A RFM Analysis</title>
-      <link>http://localhost:1313/posts/ecommerce-rkc/</link>
+      <link>http://localhost:64416/posts/ecommerce-rkc/</link>
       <pubDate>Fri, 15 Nov 2024 22:19:07 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ecommerce-rkc/</guid>
+      <guid>http://localhost:64416/posts/ecommerce-rkc/</guid>
       <description>&lt;!-- PROJECT SHIELDS --&gt;
 &lt;!--
 *** I&#39;m using markdown &#34;reference style&#34; links for readability.
@@ -26,26 +26,26 @@
     </item>
     <item>
       <title>A Critical Analysis of Icelands Tourism Dashboard: Beyond the Surface</title>
-      <link>http://localhost:1313/posts/comparaison/</link>
+      <link>http://localhost:64416/posts/comparaison/</link>
       <pubDate>Fri, 06 Dec 2024 11:45:15 +0000</pubDate>
-      <guid>http://localhost:1313/posts/comparaison/</guid>
-      <description>&lt;h1 id=&#34;a-critical-analysis-of-icelands-tourism-dashboard-beyond-the-surface&#34;&gt;A Critical Analysis of Iceland&amp;rsquo;s Tourism Dashboard: Beyond the Surface&lt;/h1&gt;
+      <guid>http://localhost:64416/posts/comparaison/</guid>
+      <description>&lt;h1 id=&#34;mælaborð-ferðaþjónustunnar-a-critical-analysis-of-icelands-tourism-dashboard&#34;&gt;Mælaborð ferðaþjónustunnar: A Critical Analysis of Iceland&amp;rsquo;s Tourism Dashboard&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Stephen Few, a renowned data visualisation expert, defines a dashboard as &amp;ldquo;a visual display of the most important information needed to achieve one or more objectives, with the data consolidated and arranged on a single screen so the information can be monitored at a glance&amp;rdquo; (Few, 2004). Using this definition as starting point, let&amp;rsquo;s examine &lt;a href=&#34;https://www.maelabordferdathjonustunnar.is/&#34;&gt;ferðamalastofa&amp;rsquo;s dashboards &lt;/a&gt; and analyse its effectiveness as a tool for understanding tourism patterns in the country.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A bold move towards data tourism </title>
-      <link>http://localhost:1313/posts/announced/</link>
+      <link>http://localhost:64416/posts/announced/</link>
       <pubDate>Tue, 03 Dec 2024 12:19:15 +0000</pubDate>
-      <guid>http://localhost:1313/posts/announced/</guid>
+      <guid>http://localhost:64416/posts/announced/</guid>
       <description>&lt;p&gt;The recent &lt;a href=&#34;https://www.visir.is/g/20242656891d/islensk-ferdathjonusta-til-framtidar-naestu-skref&#34;&gt;annoucnement&lt;/a&gt; by Minister Lilja Dögg Alfreðsdóttir marks a significant milestone for Iceland&amp;rsquo;s tourism sector. The government&amp;rsquo;s commitment to allocate 60 million ISK annually for tourism research and data collection demonstrates a clear understanding of the industry&amp;rsquo;s future needs.&lt;/p&gt;
 &lt;p&gt;This initiative arrives at a crucial time. As Iceland&amp;rsquo;s tourism sector continues to evolve, the need for data-driven decision-making becomes increasingly apparent. The proposed open data space for tourism (opið gagnarými) could transform how we understand and manage visitor flows, resource allocation, and sustainable tourism development. What makes this announcement particularly promising is its comprehensive approach. Rather than isolated data collection efforts, the strategy emphasises creating an integrated ecosystem where both public and private stakeholders can access and contribute to a shared knowledge base.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gagnavist - A Datatþon</title>
-      <link>http://localhost:1313/posts/datathon/</link>
+      <link>http://localhost:64416/posts/datathon/</link>
       <pubDate>Mon, 25 Nov 2024 13:19:15 +0000</pubDate>
-      <guid>http://localhost:1313/posts/datathon/</guid>
+      <guid>http://localhost:64416/posts/datathon/</guid>
       <description>&lt;h1 id=&#34;gagnvist-datathon-2024---post-event-report&#34;&gt;GAGNVIST Datathon 2024 - Post-Event Report&lt;/h1&gt;
 &lt;h2 id=&#34;the-event-designing-icelands-future-transit&#34;&gt;The Event: Designing Iceland&amp;rsquo;s Future Transit&lt;/h2&gt;
 &lt;p&gt;Organised by Hagstofa, The GAGNVIST Datathon 2024 brought together teams to tackle a fascinating challenge: optimising Borgarlínan&amp;rsquo;s route system in Iceland. Our team, Nerd Herd, approached this with a unique perspective - focusing on the human element of transit rather than just the technical infrastructure.&lt;/p&gt;
@@ -53,34 +53,34 @@
     </item>
     <item>
       <title>The Potential Of Smart Tourism</title>
-      <link>http://localhost:1313/posts/potential-smart-tourism/</link>
+      <link>http://localhost:64416/posts/potential-smart-tourism/</link>
       <pubDate>Sun, 17 Nov 2024 13:50:01 +0000</pubDate>
-      <guid>http://localhost:1313/posts/potential-smart-tourism/</guid>
+      <guid>http://localhost:64416/posts/potential-smart-tourism/</guid>
       <description>&lt;p&gt;&lt;em&gt;Snjallferðaþjónusta nýtir nýjustu tækni eins og gervigreind og stórgögn til að skapa persónumiðaða og sjálfbæra ferðaupplifun. Þessi nálgun getur bætt upplifun ferðamanna, styrkt staðbundið viðskiptalíf og stuðlað að sjálfbærni í ferðaþjónustu, en krefst umtalsverðrar fjárfestingar í innviðum og þekkingu.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Imagine this: A tourist arrives in Reykjavik, excited to explore Iceland. As they step off the plane, their smartphone lights up with a personalised welcome message and a curated list of attractions based on their interests. Throughout their stay, real-time data on weather conditions, Northern Lights visibility, and crowd levels at popular sites help them make the most of their visit. This isn’t science fiction - it’s the promise of smart tourism, and it’s closer than you might think.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Samrt Tourism</title>
-      <link>http://localhost:1313/posts/samrttourism/</link>
+      <link>http://localhost:64416/posts/samrttourism/</link>
       <pubDate>Sun, 17 Nov 2024 13:40:54 +0000</pubDate>
-      <guid>http://localhost:1313/posts/samrttourism/</guid>
+      <guid>http://localhost:64416/posts/samrttourism/</guid>
       <description>&lt;p&gt;As an IT professional in Iceland’s tourism sector, I’ve witnessed firsthand the transformative power of data analytics. Our breathtaking landscapes and unique cultural experiences have drawn visitors from around the globe. But in today’s digital age, how can we leverage data to enhance these experiences and drive sustainable growth?&lt;/p&gt;
 &lt;p&gt;Recently, I dove deep into the world of data analytics in tourism, exploring its applications and potential impact on our industry. What I discovered was eye-opening. By harnessing the vast amounts of data generated by tourists - from social media posts to booking patterns - we can gain unprecedented insights into visitor preferences, behaviours, and pain points.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Making Smart Tourism Work in Iceland: From Vision to Reality</title>
-      <link>http://localhost:1313/posts/thesis/</link>
+      <link>http://localhost:64416/posts/thesis/</link>
       <pubDate>Sat, 16 Nov 2024 13:19:15 +0000</pubDate>
-      <guid>http://localhost:1313/posts/thesis/</guid>
+      <guid>http://localhost:64416/posts/thesis/</guid>
       <description>&lt;p&gt;&lt;em&gt;TLDR&lt;/em&gt;: &lt;em&gt;Iceland’s tourism industry is poised to embrace smart tourism, but faces unique challenges. Key recommendations include strengthening stakeholder collaboration, creating a centralized tourism data platform, and investing in widespread data literacy. The good news? Iceland’s compact size and tight-knit tourism community make rapid transformation possible.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;why-this-matters-now&#34;&gt;Why This Matters Now&lt;/h2&gt;
 &lt;p&gt;Iceland stands at a crossroads. As global tourism rebounds and evolves, destinations worldwide are racing to implement smart solutions. But Iceland’s unique context – its small market size, distinctive challenges, and opportunities – means it can’t simply copy-paste solutions from larger markets like Spain or Singapore.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Transactional Analytics for a Spa</title>
-      <link>http://localhost:1313/posts/rfm/</link>
+      <link>http://localhost:64416/posts/rfm/</link>
       <pubDate>Fri, 15 Nov 2024 22:22:51 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rfm/</guid>
+      <guid>http://localhost:64416/posts/rfm/</guid>
       <description>&lt;!-- PROJECT SHIELDS --&gt;
 &lt;!--
 *** I&#39;m using markdown &#34;reference style&#34; links for readability.

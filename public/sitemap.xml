@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/ecommerce-rkc/</loc>
+    <loc>http://localhost:64416/posts/ecommerce-rkc/</loc>
     <lastmod>2024-11-15T22:19:07+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/comparaison/</loc>
+    <loc>http://localhost:64416/posts/comparaison/</loc>
     <lastmod>2024-12-06T11:45:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:64416/</loc>
     <lastmod>2024-12-06T11:45:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:64416/posts/</loc>
     <lastmod>2024-12-06T11:45:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/announced/</loc>
+    <loc>http://localhost:64416/posts/announced/</loc>
     <lastmod>2024-12-03T12:19:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/datathon/</loc>
+    <loc>http://localhost:64416/posts/datathon/</loc>
     <lastmod>2024-11-25T13:19:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/potential-smart-tourism/</loc>
+    <loc>http://localhost:64416/posts/potential-smart-tourism/</loc>
     <lastmod>2024-11-17T13:50:01+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/samrttourism/</loc>
+    <loc>http://localhost:64416/posts/samrttourism/</loc>
     <lastmod>2024-11-17T13:40:54+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/thesis/</loc>
+    <loc>http://localhost:64416/posts/thesis/</loc>
     <lastmod>2024-11-16T13:19:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/rfm/</loc>
+    <loc>http://localhost:64416/posts/rfm/</loc>
     <lastmod>2024-11-15T22:22:51+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:64416/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:64416/tags/</loc>
   </url>
 </urlset>

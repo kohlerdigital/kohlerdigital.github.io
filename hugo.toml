@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Kohler Digital'
-theme = 'PaperMod'
+theme = 'PaperMod-local'
 
 [params]
   env = "production"
