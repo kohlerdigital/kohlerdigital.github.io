@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Kohler Digital</description>
     <generator>Hugo -- 0.137.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2024 12:19:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2024 11:45:15 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A RFM Analysis</title>
@@ -23,6 +23,15 @@
 --&gt;
 &lt;!-- ABOUT THE PROJECT --&gt;
 &lt;p&gt;The project was made for an essay of the University of Cumbria in the context of Msc in Data Analytics. It reviews the concepts of data science and analytics, then analyses an online luxury fashion C2C company&amp;rsquo;s dataset using Python, identifying weak correlations between social features/passRate and user sales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Critical Analysis of Icelands Tourism Dashboard: Beyond the Surface</title>
+      <link>http://localhost:1313/posts/comparaison/</link>
+      <pubDate>Fri, 06 Dec 2024 11:45:15 +0000</pubDate>
+      <guid>http://localhost:1313/posts/comparaison/</guid>
+      <description>&lt;h1 id=&#34;a-critical-analysis-of-icelands-tourism-dashboard-beyond-the-surface&#34;&gt;A Critical Analysis of Iceland&amp;rsquo;s Tourism Dashboard: Beyond the Surface&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Stephen Few, a renowned data visualisation expert, defines a dashboard as &amp;ldquo;a visual display of the most important information needed to achieve one or more objectives, with the data consolidated and arranged on a single screen so the information can be monitored at a glance&amp;rdquo; (Few, 2004). Using this definition as starting point, let&amp;rsquo;s examine &lt;a href=&#34;https://www.maelabordferdathjonustunnar.is/&#34;&gt;ferðamalastofa&amp;rsquo;s dashboards &lt;/a&gt; and analyse its effectiveness as a tool for understanding tourism patterns in the country.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A bold move towards data tourism </title>
