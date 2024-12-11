@@ -1,15 +1,17 @@
-+++
-date = '2024-11-16T13:19:15Z'
-draft = false
-title = 'Making Smart Tourism Work in Iceland: From Vision to Reality'
-[cover]
-image = "../blog-header-illustration.svg"  # or your image path
-alt = "Digital Northern Lights"
-caption = "Digital Northern Lights"
-relative = false
-+++
-
-
+---
+title: "Smart Tourism in Iceland"
+date: 2024-11-15T22:19:07Z
+draft: false
+weight: 1
+cover:
+    image: "blog-header-illustration.svg"
+    alt: "RFM Analysis"
+    caption: "RFM Analysis Visualization"
+    relative: false
+ShowToc: true
+description: "My thesis work on smart tourism and its implementation in Iceland. Why data in toursim in important, why it works and the difficulties."
+tags: ["data-analysis", "Thesis", "Qualitative Research"]
+---
 
 *TLDR*: _Iceland’s tourism industry is poised to embrace smart tourism, but faces unique challenges. Key recommendations include strengthening stakeholder collaboration, creating a centralized tourism data platform, and investing in widespread data literacy. The good news? Iceland’s compact size and tight-knit tourism community make rapid transformation possible._
 

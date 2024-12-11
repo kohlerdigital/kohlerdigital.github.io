@@ -1,16 +1,17 @@
-+++
-date = '2024-11-15T22:22:51Z'
-draft = false
-title = 'Transactional Analytics for a Spa'
-[cover]
-image = "/spending_monthly_cohort.png"  # or your image path
-alt = "Digital Northern Lights"
-caption = "Digital Northern Lights"
-relative = false
-weight = 2
-width = 560   # Add this line
-height = 230  # Add this line
-+++
+---
+title: "Transactional Analytics for a Spa"
+date: 2024-11-15T22:19:07Z
+draft: false
+weight: 1
+cover:
+    image: "spending_monthly_cohort.png"
+    alt: "Spa analysis"
+    caption: "Spa analysis"
+    relative: false
+ShowToc: true
+description: "An exemple of report given to a spa, the question was to analyse an sample and derive immediat actionable insights."
+tags: ["RFM", "python", "reporting"]
+---
 
 <!-- PROJECT SHIELDS -->
 <!--

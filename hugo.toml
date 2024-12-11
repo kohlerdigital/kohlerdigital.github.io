@@ -5,7 +5,14 @@ theme = 'PaperMod-local'
 
 [params]
   env = "production"
-
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  displayFullLangName = true
+  ShowToc = true
+  
   [params.homeInfoParams]
     Title = "Hey, I'm Samuel 👋"
     Content = "<div style='display:flex;flex-direction:column;gap:1rem'><span>I am a data analyst and adventure guide in the Icelandic highlands. I specialise in Smart Tourism, transforming travel data into unforgettable experiences.</span><span>I write and work with tourism data.</span><span>I'm coding in Python, yet I'm not afraid of Excel and R. From Salesforce to CSV, from AWS to sharepoint, I know how to handle this. From SEO to digital campaigns, from mountain guide to Salesforce, I have worked in almost everyfield of the tourism industry.</span></div>"
@@ -21,11 +28,11 @@ theme = 'PaperMod-local'
   [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/samuel-kohler-a78170b/"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-  
 
 [menu]
   [[menu.main]]
@@ -35,16 +42,22 @@ theme = 'PaperMod-local'
     weight = 10
   
   [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 20
+
+  [[menu.main]]
     identifier = "posts"
     name = "Blog"
     url = "/posts/"
-    weight = 20
+    weight = 30
   
   [[menu.main]]
     identifier = "contents"
     name = "Contents"
     url = "https://joelolawanle.com/contents"
-    weight = 30
+    weight = 40
 
 [mediaTypes]
   [mediaTypes."application/pdf"]
@@ -54,3 +67,14 @@ theme = 'PaperMod-local'
   mediaType = "application/pdf"
   isPlainText = true
   isHTML = false
+
+[params.cover]
+  linkFullImages = true
+  responsiveImages = true
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+
+[params.assets]
+  disableHLJS = true
+  disableFingerprinting = true

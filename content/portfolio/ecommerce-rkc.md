@@ -1,16 +1,17 @@
-+++
-date = '2024-11-15T22:19:07Z'
-draft = false
-title = 'A RFM Analysis'
-weight = 1
-[cover]
-image = "compact-data-header.svg"  # or your image path
-alt = "Digital Northern Lights"
-caption = "Digital Northern Lights"
-relative = false
-ShowToc = true
-+++
-
+---
+title: "A RFM Analysis"
+date: 2024-11-15T22:19:07Z
+draft: false
+weight: 1
+cover:
+    image: "rkc.png"
+    alt: "RFM Analysis"
+    caption: "RFM Analysis Visualization"
+    relative: false
+ShowToc: true
+description: "Analysis of a luxury fashion C2C company's dataset using Python, focusing on user segmentation and the relationship between social features and sales performance."
+tags: ["data-analysis", "python", "e-commerce"]
+---
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -21,7 +22,6 @@ ShowToc = true
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-
 <!-- ABOUT THE PROJECT -->
 The project was made for an essay of the University of Cumbria in the context of Msc in Data Analytics. It reviews the concepts of data science and analytics, then analyses an online luxury fashion C2C company's dataset using Python, identifying weak correlations between social features/passRate and user sales.
 
@@ -31,13 +31,9 @@ The paper gives a literature review of the terms data science and data analytics
 
 ### A BIT OF CONTEXT
 
- For this analysis, a dataset provided by [Jeffrey Mvutu Mabilama](https://www.kaggle.com/datasets/jmmvutu/ecommerce-users-of-a-french-c2c-fashion-store) will be used. The data collected here represents 
- selected metrics from a customer to customer (C2C) luxury fashion company, vestiairecollective.com.
+For this analysis, a dataset provided by [Jeffrey Mvutu Mabilama](https://www.kaggle.com/datasets/jmmvutu/ecommerce-users-of-a-french-c2c-fashion-store) will be used. The data collected here represents selected metrics from a customer to customer (C2C) luxury fashion company, vestiairecollective.com.
 
-As part of the sales process, the company has set up an authentication and quality control process where items are 
-checked before they are sent to the customer. The item is directed to the company's team of expert who asses the 
-authenticity and the quality of the item before sending it to the buyer. The website provides social network 
-features where users can follow a user, like an item or wish a product.
+As part of the sales process, the company has set up an authentication and quality control process where items are checked before they are sent to the customer. The item is directed to the company's team of expert who asses the authenticity and the quality of the item before sending it to the buyer. The website provides social network features where users can follow a user, like an item or wish a product.
 
 ## DEFINING A C2C PROBLEM
 
@@ -77,23 +73,16 @@ To generate money, the company needs to increase the number of transactions betw
 The hypothesises stated above is partially correct. The best performing cluster, cluster 3, with 49 users of 2036 successful sellers, represents 2.5% of the users, while this amounts to 31% of all sales. Simultaneously, the worst-performing cluster, cluster 1, represents 1109 users out of 2036, which amount to 56% of the successful sellers. The same cluster also amounts to 10% of the sales volume. 
 When added up, clusters 0 and 1 amounts to 1360 users, cluster 2, 627 and cluster 3, 49. Respectively 66%, 30% and 4%. This is almost a match to Zipfs law. 
 
-
 - An email campaign could be set up for cluster 2 to teach them about proper brand building to increase the number of sales.  
-
 - An education campaign teaching what is a luxury piece of clothing, answering to the company's quality standards, could lead to more sales. 
 
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [ ] Analyse User retention
 - [ ] Integrate with tableau/BI
-
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Qualitative Research on Kohler Digital</title>
+    <link>http://localhost:1313/tags/qualitative-research/</link>
+    <description>Recent content in Qualitative Research on Kohler Digital</description>
+    <generator>Hugo -- 0.137.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2024 22:19:07 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/qualitative-research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smart Tourism in Iceland</title>
+      <link>http://localhost:1313/portfolio/thesis/</link>
+      <pubDate>Fri, 15 Nov 2024 22:19:07 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/thesis/</guid>
+      <description>My thesis work on smart tourism and its implementation in Iceland. Why data in toursim in important, why it works and the difficulties.</description>
+    </item>
+  </channel>
+</rss>
