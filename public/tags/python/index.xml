@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/portfolio/ecommerce-rkc/</guid>
       <description>Analysis of a luxury fashion C2C company&amp;#39;s dataset using Python, focusing on user segmentation and the relationship between social features and sales performance.</description>
     </item>
+    <item>
+      <title>Transactional Analytics for a Spa</title>
+      <link>http://localhost:1313/portfolio/rfm/</link>
+      <pubDate>Fri, 15 Nov 2024 22:19:07 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/rfm/</guid>
+      <description>An exemple of report given to a spa, the question was to analyse an sample and derive immediat actionable insights.</description>
+    </item>
   </channel>
 </rss>

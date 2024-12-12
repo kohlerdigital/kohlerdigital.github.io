@@ -8,6 +8,9 @@
     <loc>http://localhost:1313/portfolio/thesis/</loc>
     <lastmod>2024-11-15T22:19:07+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/portfolio/rfm/</loc>
+    <lastmod>2024-11-15T22:19:07+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/comparaison/</loc>
     <lastmod>2024-12-06T11:45:15+00:00</lastmod>
   </url><url>
@@ -32,9 +35,6 @@
     <loc>http://localhost:1313/posts/samrttourism/</loc>
     <lastmod>2024-11-17T13:40:54+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/rfm/</loc>
-    <lastmod>2024-11-15T22:22:51+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/data-analysis/</loc>
     <lastmod>2024-11-15T22:19:07+00:00</lastmod>
   </url><url>
@@ -47,11 +47,23 @@
     <loc>http://localhost:1313/tags/qualitative-research/</loc>
     <lastmod>2024-11-15T22:19:07+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/reporting/</loc>
+    <lastmod>2024-11-15T22:19:07+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rfm/</loc>
+    <lastmod>2024-11-15T22:19:07+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-15T22:19:07+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/thesis/</loc>
     <lastmod>2024-11-15T22:19:07+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/private/</loc>
+    <lastmod>2024-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/private/car_rental/</loc>
+    <lastmod>2024-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>

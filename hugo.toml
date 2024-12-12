@@ -78,3 +78,14 @@ theme = 'PaperMod-local'
 [params.assets]
   disableHLJS = true
   disableFingerprinting = true
+
+# Private content configuration
+[permalinks]
+  private = "/private/:filename/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# Exclude private section from lists and RSS feeds
+ignoreFiles = ["/private/*"]
