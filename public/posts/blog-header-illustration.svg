@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#282a36;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#44475a;stop-opacity:1"/>
+    </linearGradient>
+    
+    <!-- Northern lights gradient using Dracula colors -->
+    <linearGradient id="auroraGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff79c6;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#bd93f9;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#ff79c6;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="800" height="400" fill="url(#skyGradient)"/>
+
+  <!-- Northern Lights -->
+  <path d="M0,100 Q200,50 400,120 T800,80" stroke="url(#auroraGradient)" fill="none" stroke-width="40" opacity="0.6">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0,100 Q200,50 400,120 T800,80;                      M0,90 Q200,140 400,100 T800,110;                      M0,100 Q200,50 400,120 T800,80"/>
+  </path>
+
+  <!-- Mountains in background -->
+  <path d="M0,400 L200,200 L400,350 L600,180 L800,400 Z" fill="#44475a"/>
+  
+  <!-- Mountains in foreground -->
+  <path d="M-100,400 L200,150 L400,400 Z" fill="#6272a4"/>
+  <path d="M300,400 L500,180 L700,400 Z" fill="#6272a4"/>
+
+  <!-- Data points and connections -->
+  <g id="dataNetwork">
+    <!-- Data points -->
+    <circle cx="200" cy="250" r="4" fill="#50fa7b"/>
+    <circle cx="300" cy="200" r="4" fill="#50fa7b"/>
+    <circle cx="400" cy="280" r="4" fill="#50fa7b"/>
+    <circle cx="500" cy="220" r="4" fill="#50fa7b"/>
+    <circle cx="600" cy="260" r="4" fill="#50fa7b"/>
+
+    <!-- Connecting lines -->
+    <line x1="200" y1="250" x2="300" y2="200" stroke="#8be9fd" stroke-width="1" opacity="0.6"/>
+    <line x1="300" y1="200" x2="400" y2="280" stroke="#8be9fd" stroke-width="1" opacity="0.6"/>
+    <line x1="400" y1="280" x2="500" y2="220" stroke="#8be9fd" stroke-width="1" opacity="0.6"/>
+    <line x1="500" y1="220" x2="600" y2="260" stroke="#8be9fd" stroke-width="1" opacity="0.6"/>
+
+    <!-- Pulsing animation for data points -->
+    <circle cx="200" cy="250" r="6" fill="none" stroke="#f1fa8c" opacity="0.5">
+      <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="280" r="6" fill="none" stroke="#f1fa8c" opacity="0.5">
+      <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="600" cy="260" r="6" fill="none" stroke="#f1fa8c" opacity="0.5">
+      <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+  </g>
+
+  <!-- Binary data stream -->
+  <text x="50" y="150" fill="#ff79c6" opacity="0.3" font-family="monospace" font-size="10">
+    10110101
+    <animate attributeName="x" values="800;-100" dur="15s" repeatCount="indefinite"/>
+  </text>
+  <text x="150" y="180" fill="#bd93f9" opacity="0.3" font-family="monospace" font-size="10">
+    01001011
+    <animate attributeName="x" values="800;-100" dur="12s" repeatCount="indefinite"/>
+  </text>
+  <text x="250" y="220" fill="#ff79c6" opacity="0.3" font-family="monospace" font-size="10">
+    11100101
+    <animate attributeName="x" values="800;-100" dur="18s" repeatCount="indefinite"/>
+  </text>
+</svg>

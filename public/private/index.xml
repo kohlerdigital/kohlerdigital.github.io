@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Privates on Kohler Digital</title>
+    <link>http://localhost:1313/private/</link>
+    <description>Recent content in Privates on Kohler Digital</description>
+    <generator>Hugo -- 0.137.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/private/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transform Your Rental Fleet with Data Analytics</title>
+      <link>http://localhost:1313/private/car_rental/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/private/car_rental/</guid>
+      <description>&lt;p&gt;Birgir and your team,&lt;/p&gt;
+&lt;p&gt;After our successful dataþon with Hagstofa, I mentionned using vehicle geo data and how it can help car rentals cut costs and generate new revenue streams. I prepared here a quick report with exemples and academic sources. I would love to give a short presentation of this report to Avis and its team such as Axel Gómez, Árni Sigurjónsson, Daníel Hansson and yourself.&lt;/p&gt;
+&lt;h2 id=&#34;icelands-unique-rental-market-challenges&#34;&gt;Iceland&amp;rsquo;s Unique Rental Market Challenges&lt;/h2&gt;
+&lt;p&gt;Your rental fleet operates in one of the world&amp;rsquo;s most distinctive environments. From summer&amp;rsquo;s midnight sun to winter&amp;rsquo;s harsh storms, managing vehicles across Iceland requires exceptional insight and precision.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

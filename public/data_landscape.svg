@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 250">
+  <defs>
+    <!-- Gradient for the sky -->
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#02529C"/>
+      <stop offset="100%" stop-color="#0077CC"/>
+    </linearGradient>
+    
+    <!-- Gradient for the mountains -->
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </linearGradient>
+    
+    <!-- Pattern for data points -->
+    <pattern id="dataPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="2" fill="#DC1E35">
+        <animate attributeName="r" values="2;3;2" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="670" height="250" fill="url(#skyGradient)"/>
+  
+  <!-- Northern Lights Effect -->
+  <path d="M0,50 Q167,20 335,50 T670,30" 
+        fill="none" 
+        stroke="#80FFB0" 
+        stroke-width="2" 
+        opacity="0.5">
+    <animate attributeName="d" 
+             dur="10s" 
+             repeatCount="indefinite"
+             values="M0,50 Q167,20 335,50 T670,30;
+                     M0,40 Q167,60 335,40 T670,50;
+                     M0,50 Q167,20 335,50 T670,30"/>
+  </path>
+  
+  <!-- Data Mountains -->
+  <path d="M0,250 L0,150 L100,100 L200,180 L300,90 L400,160 L500,70 L600,140 L670,120 L670,250 Z" 
+        fill="url(#mountainGradient)" 
+        stroke="#FFFFFF" 
+        stroke-width="2"/>
+  
+  <!-- Bar Chart Elements -->
+  <g transform="translate(100, 100)">
+    <!-- Animated Bars -->
+    <rect x="0" y="0" width="30" height="80" fill="#DC1E35" opacity="0.8">
+      <animate attributeName="height" values="80;100;80" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="50" y="0" width="30" height="60" fill="#DC1E35" opacity="0.8">
+      <animate attributeName="height" values="60;80;60" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="100" y="0" width="30" height="90" fill="#DC1E35" opacity="0.8">
+      <animate attributeName="height" values="90;110;90" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Data Flow Lines -->
+  <g stroke="#80FFB0" stroke-width="1" fill="none">
+    <path d="M450,50 Q560,150 670,100">
+      <animate attributeName="d" 
+               dur="15s" 
+               repeatCount="indefinite"
+               values="M450,50 Q560,150 670,100;
+                       M450,70 Q560,120 670,150;
+                       M450,50 Q560,150 670,100"/>
+    </path>
+  </g>
+
+  <!-- Floating Data Points -->
+  <g>
+    <circle cx="500" cy="75" r="4" fill="#DC1E35">
+      <animate attributeName="cy" values="75;85;75" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="550" cy="100" r="4" fill="#DC1E35">
+      <animate attributeName="cy" values="100;110;100" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="125" r="4" fill="#DC1E35">
+      <animate attributeName="cy" values="125;135;125" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Text Elements -->
+  <g font-family="Arial, sans-serif" fill="#DC1E35">
+    <text x="335" y="230" text-anchor="middle" font-size="16" font-weight="bold">DATA LANDSCAPE</text>
+  </g>
+
+  <!-- Decorative Elements -->
+  <g fill="#DC1E35">
+    <circle cx="50" cy="50" r="3">
+      <animate attributeName="r" values="3;4;3" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="50" r="3">
+      <animate attributeName="r" values="3;4;3" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
